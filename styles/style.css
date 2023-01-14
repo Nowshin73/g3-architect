@@ -1,7 +1,10 @@
 body{
-    max-width: 1440px;
-    margin: 0 auto;
+margin: 0;
     font-family: Work Sans;
+}
+main{
+ max-width: 1440px;
+    margin: 0 auto;
 }
 .btn-primary{
 font-weight: 600;
@@ -25,6 +28,7 @@ color: #727272;
 }
 /* header section */
 header{
+    background: rgba(255, 144, 14, 0.1);
 }
 /* navbar */
 nav{
@@ -35,4 +39,8 @@ align-items: center;
 nav ul{
     display: flex;
     list-style: none;
+    gap: 3rem;
+}
+nav ul li{
+    color: #424242;;
 }
