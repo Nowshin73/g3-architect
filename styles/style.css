@@ -327,7 +327,7 @@ color: #424242;
     }
     .facts-down{
         flex-direction: column;
-        gap: 1rem;
+        gap: 2rem;
     }
     .facts-icons{
         padding: 20px 40px;
