@@ -267,6 +267,9 @@ color: #424242;
     nav{
         flex-direction: column;
     }
+    nav ul{
+        flex-direction: column;
+    }
     .list{
       flex-direction: column;
         margin-top: 2rem;
