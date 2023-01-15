@@ -148,6 +148,7 @@ font-size: 65px;
     font-weight: 500;
 font-size: 25px;
 }
+/********************** facts ***************/
 .facts{
     margin-bottom: 130px;
 }
@@ -185,6 +186,7 @@ color: #727272;
 .facts-icons:hover{
 transform: scale(1.2);
 }
+/* *************  sponsors ****************** */
 .sponsors{
     margin-bottom: 130px;
 }
@@ -210,6 +212,7 @@ align-items: center;
     width: 100%;
     filter: grayscale(100%);
 }
+/* ***************** newsletter **************** */
 .newsletter{
     display: flex;
     flex-direction: column;
@@ -238,7 +241,7 @@ border-bottom-left-radius: 10px;
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
 }
-
+/* ******************  footer******************** */
 footer{
     display: flex;
     justify-content: center;
@@ -310,9 +313,7 @@ color: #424242;
     .facts{
         margin-bottom: 130px;
     }
-    .facts-container{
-    
-    }
+   
     .facts-up{
         padding: 1rem;
     margin-bottom: 2rem;
@@ -336,7 +337,9 @@ color: #424242;
         width: 100%;
         filter: grayscale(100%);
     }
-    
+    .newsletter-container input{
+    width: 70%;
+    }
     footer{
         margin: 20px;
         padding: 38px;
